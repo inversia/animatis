@@ -1,0 +1,39 @@
+{
+  "name": "animatis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animatis (A Modern HTML5 Canvas Drawing Project Template)",
+  "main": "index.js",
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "scripts": {
+    "start": "rm -rf .parcel-cache dist && parcel src/index.html",
+    "build": "rm -rf .parcel-cache dist && parcel build --public-url ./ src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inversia/animatis.git"
+  },
+  "author": "Vit Gordon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inversia/animatis/issues"
+  },
+  "homepage": "https://github.com/inversia/animatis#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "sass": "^1.29.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "noisejs": "^2.1.0",
+    "panic-overlay": "^1.0.42",
+    "parcel": "^1.12.4",
+    "prettier": "^2.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reset-css": "^5.0.1"
+  }
+}
